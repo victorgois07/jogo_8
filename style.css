@@ -1,0 +1,55 @@
+body{
+    padding: 10%;
+}
+
+table.table{
+    text-align: center;
+}
+
+table.table tr, table.table td{
+    border: none;
+    padding: 0;
+}
+
+.btn.btn-outline-dark {
+    width: 7rem;
+    height: 7rem;
+    font-size: 60px;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 6px;
+}
+
+div#div-btn, div#div-img, div#div-number{
+    margin-top: 30px;
+}
+
+.img-table{
+    width: 10px;
+}
+
+div#div-img table tbody td {
+    padding: 0;
+}
+
+.img-table {
+    width: 106px;
+}
+
+td.ceil-table-img{
+    z-index: 999;
+}
+
+img.img-table{
+    z-index: 1;
+}
+
+div#div-tipo button:first-child{
+    margin-right: 10px;
+}
+
+.none_hidden{
+    display: none !important;
+}
